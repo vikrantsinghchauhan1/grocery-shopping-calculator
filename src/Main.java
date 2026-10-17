@@ -11,8 +11,6 @@ class Main{
         int prodPrice;
         in.nextLine();
         int totalPrice =0;
-
-
         for (int i = 1; i <=index ; i++) {
             System.out.print("Product name is : ");
             prodName=in.nextLine();
@@ -22,8 +20,6 @@ class Main{
             System.out.println("  Price : "+prodPrice);
             in.nextLine();
             totalPrice+=prodPrice;
-
-
         }
         System.out.println("Total price of " +index +" products is :" +totalPrice);
 
